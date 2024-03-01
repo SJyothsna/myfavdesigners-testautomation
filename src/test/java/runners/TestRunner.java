@@ -8,7 +8,7 @@ import java.lang.System;
 @CucumberOptions(
         features = "src/test/resources/features", // Path to your feature files
         glue = "src/main/java/stepDefinitions", // Package where your step definitions are located
-        tags = "@Jyo",
+        tags = "",
         plugin = {"pretty", "html:target/cucumber-reports"} // Plugins for test reporting
 )
 public class TestRunner {
